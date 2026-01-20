@@ -42,6 +42,10 @@ While standard validation metrics show high performance ($R^2 > 0.9$), we perfor
 ## Usage
 This project uses the Python API of Google Earth Engine (`geemap`).
 
+## References
+Onačillová, K., et al. (2022). Combining Landsat 8 and Sentinel-2 Data in Google Earth Engine to Derive Higher Resolution Land Surface Temperature Maps.
+
+
 ```python
 # Clone the repository
 git clone [https://github.com/tarikmacto-sm/LST-Downscaling-GEE-Istanbul.git](https://github.com/tarikmacto-sm/LST-Downscaling-GEE-Istanbul.git)
@@ -49,5 +53,4 @@ git clone [https://github.com/tarikmacto-sm/LST-Downscaling-GEE-Istanbul.git](ht
 # Install dependencies
 pip install geemap earthengine-api
 
-References
-Onačillová, K., et al. (2022). Combining Landsat 8 and Sentinel-2 Data in Google Earth Engine to Derive Higher Resolution Land Surface Temperature Maps.
+
