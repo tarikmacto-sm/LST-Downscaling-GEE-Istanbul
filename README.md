@@ -5,10 +5,10 @@
 ## Project Overview
 This project focuses on downscaling **Land Surface Temperature (LST)** data from **Landsat 8 (30m)** to **Sentinel-2 resolution (10m)** using Machine Learning techniques on **Google Earth Engine (GEE)**. The study area is **Istanbul**, a complex metropolitan city characterized by significant thermal heterogeneity.
 
-By fusing thermal data with high-resolution optical indices, we aim to reveal urban heat island micro-structures that are invisible in standard satellite products.
+By fusing thermal data with high-resolution optical indices, I aim to reveal urban heat island micro-structures that are invisible in standard satellite products.
 
 ## Key Results
-We compared the traditional **Multiple Linear Regression (MLR)** approach with a **Random Forest (RF)** model.
+I compared the traditional **Multiple Linear Regression (MLR)** approach with a **Random Forest (RF)** model.
 
 | Model | RMSE (Error) | R² (Accuracy) | Improvement |
 |-------|--------------|---------------|-------------|
@@ -23,7 +23,7 @@ To ensure physical consistency, the 10m downscaled map was re-aggregated to 30m 
 ---
 
 ## Critical Analysis & Scientific Honesty
-While standard validation metrics show high performance ($R^2 > 0.9$), we performed a rigorous **"Land-Only Spatial Block Cross-Validation"** to test the model's true generalization capability.
+While standard validation metrics show high performance ($R^2 > 0.9$), I performed a rigorous **"Land-Only Spatial Block Cross-Validation"** to test the model's true generalization capability.
 
 * **The Challenge:** Standard random sampling often inflates accuracy due to spatial autocorrelation and the distinct thermal signature of water bodies.
 * **The Stress Test:** When water bodies were excluded and 10km spatial blocks were used for validation, the $R^2$ dropped to ~0.27 for both models.
